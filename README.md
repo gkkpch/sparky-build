@@ -35,13 +35,13 @@ This will
 - goto $HOME/volumio-build and type:   
 
 ```
-./build.sh -b armv -d sparky -v -<anything to identify>
+sudo ./build.sh -b arm -d sparky -v -<anything to identify>
 ```
 
 You can do it separate, rootfs first and then the image:    
 
 ```
-./build.sh -b armv  
+./build.sh -b arm  
 ./build.sh -d sparky -v -<anything to identify>   
 ```
 
