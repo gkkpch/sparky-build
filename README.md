@@ -41,13 +41,13 @@ sudo ./build.sh -b arm -d sparky -v -<anything to identify>
 You can do it separate, rootfs first and then the image:    
 
 ```
-./build.sh -b arm  
-./build.sh -d sparky -v -<anything to identify>   
+sudo ./build.sh -b arm  
+sudo ./build.sh -d sparky -v -<anything to identify>   
 ```
 
 Once you built the arm rootfs, there is no need to repeat this (unless volumio has changed).  
 For subsequent image builds, just do:  
 
 ```
-./build.sh -d sparky -v -<anything to identify>
+sudo ./build.sh -d sparky -v -<anything to identify>
 ```
