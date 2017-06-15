@@ -2,9 +2,9 @@
 cd $HOME
 echo "Cloning sparkysbc linux repo"
 git clone http://github.com/sparkysbc/linux sparky-linux
-echo "Cloning volumio build repo
+echo "Cloning volumio build repo"
 git clone http://github.com/volumio/Build volumio-build
-echo "Moving default platform files into volumio-build 
+echo "Moving default platform files into volumio-build"
 cd sparky-build
-cp -R platform-sparky ../volumio-build
+cp -r platform-sparky/ ../volumio-build
 echo "Done..."
