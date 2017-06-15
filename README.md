@@ -16,7 +16,7 @@ If on Ubuntu, you may need to remove `$forceyes` from line 989 of /usr/sbin/mult
 git clone http://github.com/gkkpch/sparky-build  $HOME/sparky-build
 - go to $HOME/sparky-build, type
 ```
-./initinfra.sh  
+./infrainit.sh  
 ```
 This will  
 - clone the sparky kernel repo to $HOME/sparky-linux  
