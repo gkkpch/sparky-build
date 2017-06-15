@@ -12,7 +12,8 @@ If on Ubuntu, you may need to remove `$forceyes` from line 989 of /usr/sbin/mult
 
 ### How to
 #### Prepare
-- clone the help scripts repo to $HOME  : git clone http://github.com/gkkpch/sparky-build  $HOME/sparky-build
+- clone the help scripts repo to $HOME  :  
+git clone http://github.com/gkkpch/sparky-build  $HOME/sparky-build
 - go to $HOME/sparky-build, type
 ```
 ./initinfra.sh  
