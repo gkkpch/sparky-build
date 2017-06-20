@@ -17,7 +17,7 @@ echo "Saving to sparky platform folder"
 rm -r $DESTDIR/sparky/lib
 make modules_install ARCH=arm INSTALL_MOD_PATH=$DESTDIR/sparky/
 make firmware_install ARCH=arm INSTALL_FW_PATH=$DESTDIR/sparky/lib/firmware
-cp arch/arm/boot/uImage $DESTDIR/sparky/boot
+cp arch/arm/boot/uImage $DESTDIR/sparky/boot/
 cp arch/arm/boot/dts/$DTB $DESTDIR/sparky/boot/kernel.dtb
 kver=`make kernelrelease`-`date +%Y.%m.%d-%H.%M`
 rm $DESTDIR/sparky/boot/config*
